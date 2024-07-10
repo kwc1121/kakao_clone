@@ -9,7 +9,7 @@ header{
 
 section{
     width: 100%;
-    height: 500px;
+    height: 600px;
     background-color: #FFEF6B;
 }
 
@@ -21,6 +21,42 @@ section h2{
     font-style: normal;
     flex-direction: column;
     justify-content: center;
-    padding-top: 100px;
+    padding-top: 70px;
     word-spacing: 7px;
 }
+
+section p{
+    color: #000;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 200;
+    font-size: small;
+}
+
+.button{
+    border-radius: 6px;
+    width: 200px;
+    height: 70px;
+    border: none;
+    margin-left: 10px ;
+    background-color: #fff;
+
+}
+
+#Google{
+    background-image: url(google.png);
+    background-repeat: no-repeat;
+    background-position: 20px ;
+    background-size: 10%;
+}
+
+#Apple{
+    background-image: url(apple.png);
+    background-repeat: no-repeat;
+    background-position: 20px ;
+    background-size: 10%;
+}
+
+s
