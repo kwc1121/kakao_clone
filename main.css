@@ -42,7 +42,8 @@ section p{
     border: none;
     margin-left: 10px ;
     background-color: #fff;
-
+    font-size: medium;
+    box-shadow: 2px 2px 2px 2px black;
 }
 
 #Google{
@@ -59,4 +60,9 @@ section p{
     background-size: 10%;
 }
 
-s
+section div{
+    display: flex;
+    justify-content: center;
+    padding-top: 250px;
+}
+
